@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .description {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    
+        .logo-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        /* Responsive adjustments */
+        @media screen and (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .header {
+                font-size: 20px;
+            }
+            .description {
+                font-size: 14px;
+            }
+            .button {
+                padding: 8px 16px;
+            }
+            .logo {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/placeholder.png" alt="Image Placeholder">
+        <div class="header">Two line long header example for web</div>
+        <p class="description">So you're trying to get a last-minute reservation but you're not sure which restaurant is still open and has availability?</p>
+        <button class="button">Button</button>
+        <div class="logo-container">
+            <img class="logo" src="images/logitech.png" alt="Logitech Logo">
+            <img class="logo" src="images/google.png" alt="Google Logo">
+            <img class="logo" src="images/facebook.png" alt="Facebook Logo">
+            <img class="logo" src="images/philips.png" alt="Philips Logo">
+            <img class="logo" src="images/linkedin.png" alt="LinkedIn Logo">
+        </div>
+    </div>
+</body>
+</html>
